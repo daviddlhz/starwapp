@@ -8,11 +8,9 @@ export const useFilms = () => {
     getFilms();
   }, []);
 
-  const getFilms = () => {
-    const res = swapi.get("https://swapi.dev/api/films/");
-    res.then((response) => {
-      console.log(response.data);
-    });
+  const getFilms = async () => {
+    const res = await swapi.get("https://swapi.dev/api/films/");
+    setFilms(res.data.results);
   };
 
   return films;

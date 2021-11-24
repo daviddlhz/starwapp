@@ -6,7 +6,7 @@ const FilmPage = () => {
   const films = useFilms();
 
   return (
-    <div>
+    <>
       <h1>FILMS</h1>
       <table>
         <thead>
@@ -19,11 +19,15 @@ const FilmPage = () => {
         </thead>
         <tbody>
           {films.map((film) => (
-            <FilmsRow key={film.episode_id} film={film} />
+            <FilmsRow
+              key={film.episode_id}
+              film={film}
+              id={films.indexOf(film) + 1}
+            />
           ))}
         </tbody>
       </table>
-    </div>
+    </>
   );
 };
 
