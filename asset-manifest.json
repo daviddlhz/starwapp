@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/starwapp/static/css/main.67383d8d.chunk.css",
+    "main.js": "/starwapp/static/js/main.c2d58246.chunk.js",
+    "main.js.map": "/starwapp/static/js/main.c2d58246.chunk.js.map",
+    "runtime-main.js": "/starwapp/static/js/runtime-main.4f98b6c0.js",
+    "runtime-main.js.map": "/starwapp/static/js/runtime-main.4f98b6c0.js.map",
+    "static/js/2.8a1ba01a.chunk.js": "/starwapp/static/js/2.8a1ba01a.chunk.js",
+    "static/js/2.8a1ba01a.chunk.js.map": "/starwapp/static/js/2.8a1ba01a.chunk.js.map",
+    "index.html": "/starwapp/index.html",
+    "static/css/main.67383d8d.chunk.css.map": "/starwapp/static/css/main.67383d8d.chunk.css.map",
+    "static/js/2.8a1ba01a.chunk.js.LICENSE.txt": "/starwapp/static/js/2.8a1ba01a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f98b6c0.js",
+    "static/js/2.8a1ba01a.chunk.js",
+    "static/css/main.67383d8d.chunk.css",
+    "static/js/main.c2d58246.chunk.js"
+  ]
+}
