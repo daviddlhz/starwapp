@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.8834f90f.chunk.css",
-    "main.js": "/static/js/main.c2d58246.chunk.js",
-    "main.js.map": "/static/js/main.c2d58246.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f3389430.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f3389430.js.map",
-    "static/js/2.8a1ba01a.chunk.js": "/static/js/2.8a1ba01a.chunk.js",
-    "static/js/2.8a1ba01a.chunk.js.map": "/static/js/2.8a1ba01a.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.8834f90f.chunk.css.map": "/static/css/main.8834f90f.chunk.css.map",
-    "static/js/2.8a1ba01a.chunk.js.LICENSE.txt": "/static/js/2.8a1ba01a.chunk.js.LICENSE.txt"
+    "static/js/0.7f02bb5f.chunk.js": "/starwapp/static/js/0.7f02bb5f.chunk.js",
+    "static/js/0.7f02bb5f.chunk.js.map": "/starwapp/static/js/0.7f02bb5f.chunk.js.map",
+    "main.css": "/starwapp/static/css/main.65dbe86d.chunk.css",
+    "main.js": "/starwapp/static/js/main.a3eeaaac.chunk.js",
+    "main.js.map": "/starwapp/static/js/main.a3eeaaac.chunk.js.map",
+    "runtime-main.js": "/starwapp/static/js/runtime-main.51ac8019.js",
+    "runtime-main.js.map": "/starwapp/static/js/runtime-main.51ac8019.js.map",
+    "static/js/3.2f525594.chunk.js": "/starwapp/static/js/3.2f525594.chunk.js",
+    "static/js/3.2f525594.chunk.js.map": "/starwapp/static/js/3.2f525594.chunk.js.map",
+    "static/js/4.ae329ee1.chunk.js": "/starwapp/static/js/4.ae329ee1.chunk.js",
+    "static/js/4.ae329ee1.chunk.js.map": "/starwapp/static/js/4.ae329ee1.chunk.js.map",
+    "static/js/5.a3157334.chunk.js": "/starwapp/static/js/5.a3157334.chunk.js",
+    "static/js/5.a3157334.chunk.js.map": "/starwapp/static/js/5.a3157334.chunk.js.map",
+    "static/js/6.c93558e9.chunk.js": "/starwapp/static/js/6.c93558e9.chunk.js",
+    "static/js/6.c93558e9.chunk.js.map": "/starwapp/static/js/6.c93558e9.chunk.js.map",
+    "index.html": "/starwapp/index.html",
+    "static/css/main.65dbe86d.chunk.css.map": "/starwapp/static/css/main.65dbe86d.chunk.css.map",
+    "static/js/3.2f525594.chunk.js.LICENSE.txt": "/starwapp/static/js/3.2f525594.chunk.js.LICENSE.txt",
+    "static/js/4.ae329ee1.chunk.js.LICENSE.txt": "/starwapp/static/js/4.ae329ee1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3389430.js",
-    "static/js/2.8a1ba01a.chunk.js",
-    "static/css/main.8834f90f.chunk.css",
-    "static/js/main.c2d58246.chunk.js"
+    "static/js/runtime-main.51ac8019.js",
+    "static/js/3.2f525594.chunk.js",
+    "static/css/main.65dbe86d.chunk.css",
+    "static/js/main.a3eeaaac.chunk.js"
   ]
 }
