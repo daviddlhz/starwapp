@@ -58,18 +58,18 @@ h1 {
 }
 
 .pagination {
-  margin: 15px auto;
+  margin: 15px 0px 8% 0px;
   display: flex;
   list-style: none;
   outline: none;
 }
 .pagination > .active > a {
-  background-color: #47ccde;
-  border-color: #47ccde;
-  color: #fff;
+  background-color: #ffe81f;
+  border-color: #ffe81f;
+  color: #ffe81f;
 }
 .pagination > li > a {
-  border: 1px solid #47ccde;
+  border: 1px solid #ffe81f;
   padding: 5px 10px;
   outline: none;
   cursor: pointer;
@@ -80,13 +80,14 @@ h1 {
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  background-color: #47ccde;
-  border-color: #47ccde;
+  background-color: #ffe81f;
+  border-color: #ffe81f;
+  color: black;
   outline: none;
 }
 .pagination > li > a,
 .pagination > li > span {
-  color: #47ccde;
+  color: #ffe81f;
 }
 .pagination > li:first-child > a,
 .pagination > li:first-child > span,

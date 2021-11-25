@@ -1,11 +1,11 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { CharactersRow } from "../components/CharactersRow";
 import { useCharacters } from "../hooks/useCharacters";
 import { useEffect, useState } from "react";
 import ReactPaginate from "react-paginate";
 
-export const CharacterPage = () => {
+const CharacterPage = () => {
   const [offset, setOffset] = useState(0);
   const [perPage] = useState(10);
   const [pageCount, setPageCount] = useState(0);
@@ -24,7 +24,7 @@ export const CharacterPage = () => {
 
   useEffect(() => {
     pagination();
-  }, [offset]);
+  }, [pagination]);
   return (
     <>
       <h1>CHARACTERS</h1>
@@ -56,6 +56,11 @@ export const CharacterPage = () => {
         subContainerClassName={"pages pagination"}
         activeClassName={"active"}
       />
+      <Link className="link" to={"/"}>
+        Come Back!
+      </Link>
     </>
   );
 };
+
+export default CharacterPage;
