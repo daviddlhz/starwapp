@@ -5,12 +5,14 @@ import { CharacterPage } from "./pages/CharacterPage";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<FilmPage />}></Route>
-        <Route path="/characters/:id" element={<CharacterPage />}></Route>
-      </Routes>
-    </BrowserRouter>
+    <div className="container">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<FilmPage />}></Route>
+          <Route path="/characters/:id" element={<CharacterPage />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 };
 

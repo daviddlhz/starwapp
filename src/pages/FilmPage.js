@@ -8,13 +8,13 @@ const FilmPage = () => {
   return (
     <>
       <h1>FILMS</h1>
-      <table>
+      <table className="styled-table">
         <thead>
           <tr>
-            <th>NOMBRE</th>
-            <th>NÚMERO DE EPISODIO</th>
+            <th>NAME</th>
+            <th>EPISODE NUMBER</th>
             <th>DIRECTOR</th>
-            <th>PERSONAJES</th>
+            <th>CHARACTERS</th>
           </tr>
         </thead>
         <tbody>

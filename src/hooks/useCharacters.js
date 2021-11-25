@@ -15,13 +15,9 @@ export const useCharacters = (id) => {
 
   const getData = async (character) => {
     const data = [];
-    let i = 0;
-    for (let char of character) {
-      await swapi.get(char).then((res) => data.push(res.data));
-      if (i > 8) {
-        break;
-      }
-      i++;
+
+    for (let index = 0; index < character.length; index++) {
+      await swapi.get(character[index]).then((res) => data.push(res.data));
     }
     setCharacters(data);
   };

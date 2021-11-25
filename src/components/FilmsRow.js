@@ -8,7 +8,9 @@ export const FilmsRow = ({ film, id }) => {
       <th>{film.episode_id}</th>
       <th>{film.director}</th>
       <th>
-        <Link to={`/characters/${id}`}>Ver persones</Link>
+        <Link className="link" to={`/characters/${id}`}>
+          View
+        </Link>
       </th>
     </tr>
   );
